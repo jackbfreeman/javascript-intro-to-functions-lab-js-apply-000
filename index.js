@@ -3,7 +3,7 @@ function shout(string) {
 }
 
 function logShout(string) {
-  console.log(`${string}.toUpperCase`)
+  console.log(string.toUpperCase)
 }
 
 function whisper(string) {
@@ -11,7 +11,7 @@ function whisper(string) {
 }
 
 function logWhisper(string) {
-  console.log(`${string.toLowerCase}`)
+  console.log(string.toLowerCase)
 }
 
 function sayHiToGrandma(string) {
